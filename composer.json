@@ -1,0 +1,24 @@
+{
+  "name": "sudhaus7/beanstalkhandler",
+  "description": "Sends your logs to files, sockets, inboxes, databases and various web services",
+  "keywords": ["log", "logging", "psr-3","monolog","beanstalk"],
+  "homepage": "http://github.com/sudhau7/beanstalkhandler",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Frank Berger",
+      "email": "fberger@sudhaus7.de",
+      "homepage": "http://sudhaus7.de"
+    }
+  ],
+  "require": {
+    "php": ">=5.6",
+    "psr/log": "~1.0",
+    "pda/pheanstalk": "^3.1",
+    "monolog/monolog": "^1.22"
+  },
+  "autoload": {
+    "psr-4": {"Sudhaus7\\Monolog\\": "src/Sudhaus7"}
+  }
+}
