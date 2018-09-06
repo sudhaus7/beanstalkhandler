@@ -20,3 +20,4 @@ $logger->debug('I am debug', array('productId' => 123));
 
 ```
 This is a fast and nonblocking way to log data. Just do not forget to get the data out of beanstalk later.
+This is very convinient
